@@ -1,4 +1,4 @@
-# mydbkl-miniapp starter
+# miniapp-template starter
 
 ## Installation in flutter project
 

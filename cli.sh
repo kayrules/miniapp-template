@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 if [ $# != 1 ]; then
-  echo "Usage: mydbkl-miniapp <name>"
+  echo "Usage: miniapp-template <name>"
   exit 0
 else 
   _name=$1
@@ -13,8 +13,8 @@ rm -rf .temp
 mkdir .temp
 cd .temp
 
-git clone https://github.com/klauth-project/mydbkl-miniapp.git
-cd mydbkl-miniapp
+git clone https://github.com/kayrules/miniapp-template.git
+cd miniapp-template
 
 grep -rl __TITLE__ . | xargs sed -i "" -e 's/__TITLE__/'$_titlecase'/g'
 grep -rl __NAME__ . | xargs sed -i "" -e 's/__NAME__/'$_lowercase'/g'

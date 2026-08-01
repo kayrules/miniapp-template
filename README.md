@@ -1,15 +1,15 @@
-# mydbkl-miniapp starter
+# miniapp-template starter
 
 ## How to Use
 
 ```
-npx mydbkl-miniapp <title>
+npx miniapp-template <title>
 ```
 
 ## Example
 
 ```
-npx mydbkl-miniapp myapp
+npx miniapp-template myapp
 ```
 
 ## Installation in flutter project
